@@ -4,7 +4,7 @@ from typing import Dict, Optional
 from srai_core.command_handler_base import CommandHandlerBase
 
 from srai_docker_control.model.container_config import ContainerConfig
-from srai_docker_control.model.repository_reference import RepositoryReference
+from srai_docker_control.model.docker_repository_reference import RepositoryReference
 
 
 def login_docker_to_ecr(command_handler: CommandHandlerBase, repository_reference: RepositoryReference) -> None:

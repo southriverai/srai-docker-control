@@ -3,7 +3,7 @@ from typing import Dict, List, Optional
 from srai_docker_control.model.container_config import ContainerConfig
 from srai_docker_control.model.container_status import ContainerStatus
 from srai_docker_control.model.docker_reference_cli import DockerReferenceCli
-from srai_docker_control.model.repository_reference import RepositoryReference
+from srai_docker_control.model.docker_repository_reference import RepositoryReference
 
 
 class DockerControl:

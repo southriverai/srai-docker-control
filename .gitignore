@@ -163,3 +163,4 @@ deployment_pro.json
 deployment_dev.json
 script/hello_world.py
 hello_world.py
+srai-release.py

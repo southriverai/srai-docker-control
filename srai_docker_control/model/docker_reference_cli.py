@@ -5,7 +5,7 @@ from srai_core.tools_docker import list_container_status, remove_container, stop
 
 from srai_docker_control.model.container_config import ContainerConfig
 from srai_docker_control.model.container_status import ContainerStatus
-from srai_docker_control.model.repository_reference import RepositoryReference
+from srai_docker_control.model.docker_repository_reference import RepositoryReference
 from srai_docker_control.tools_docker import start_container
 
 

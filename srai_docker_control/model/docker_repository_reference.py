@@ -5,7 +5,7 @@ import boto3
 from srai_core.tools_env import get_string_from_env
 
 
-class RepositoryReference:
+class DockerRepositoryReference:
 
     def __init__(
         self,
