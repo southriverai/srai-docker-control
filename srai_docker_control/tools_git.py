@@ -17,12 +17,3 @@ def check_pending_changes():
         return len(output) > 0
     except subprocess.CalledProcessError:
         return False
-
-
-def release_for_repository_tag(command_handler: CommandHandlerBase, repository_url: str, version: str):
-    # check if the repository exists with that tag
-    path_dir_repository = "test"  # command_handler.get_current_dir()
-    # remove current version
-    command_handler.execute("rm -rf *")
-    # clone the repository
-    command_handler.execute(f"git clone {repository_url}")

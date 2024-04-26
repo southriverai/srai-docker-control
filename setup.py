@@ -10,7 +10,7 @@ with open("requirements.txt", "r") as f:
 setup(
     name="srai-docker-control",
     packages=find_packages(),
-    version="0.1.0",  # TODO manual....
+    version="0.1.1",  # TODO manual....
     license="",
     package_data={},
     python_requires=">=3.10",
